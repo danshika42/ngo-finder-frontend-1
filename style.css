@@ -68,7 +68,7 @@ li{
     color: #fff;
     padding: 12px 31px;
     background:#2B623D;
-    border-color: white;
+    border-color: #ffffff;
     font-size: 0.91rem;
     border-radius: .35rem;
     margin-right: 10px;
@@ -130,6 +130,18 @@ li{
     top: 0;
     left: 0;
     opacity: 0.5;
+}
+.showcase i{
+    color: #000000;
+}
+
+.showcase-content{
+    position: relative;
+}
+.showcase-content i{
+    position: absolute;
+    top: 171px;
+    right: 61px;
 }
 
 /* map */
@@ -486,26 +498,6 @@ footer a{
 }
 
 }
-
-@media (max-width:788px){
-    aside ul{
-        margin-bottom: 10px;
-    }
-    
-    .media-handle,.media-wrapper{
-        display: block;
-        width: auto;
-    }
-    /* .contact-heading{
-        width: 85%;
-    } */
-    .footer-wrapper aside{
-        display: inline-grid;
-    }  
-   
- 
-}
-
 @media (max-width:979px){
     .main-menu{
         display: block;
@@ -514,7 +506,7 @@ footer a{
         left: 0;
         background: #f2f2f2;
         width: 50%;
-        height: 100%;
+        height: 78%;
         transform:translateX(-500px);
         border-right: #fff 1px solid;
         opacity:0.9;
@@ -527,7 +519,7 @@ footer a{
         flex-direction: column;
         position: absolute;
         top: 170px;
-        left: 0;
+        left: 5px;
         transform:translateX(-500px);
         padding: 30px;
         transition: 0.5s ease-in-out; 
@@ -555,10 +547,44 @@ footer a{
         border-bottom: 0;
     }
     .green-btn{
-        padding: 13px 38px;
+        padding: 7px 17px;
         margin-bottom: 10px;
+        font-size: 0.7rem;
+        border-color: #2B623D;
+    }
+    .red-btn{
+        padding: 7px 11px;
+        font-size: .7rem;
+    }
+    .showcase-content i{
+        top: 197px;
+        right: 51px;
     }
 }
+@media (max-width:788px){
+    aside ul{
+        margin-bottom: 10px;
+    }
+    
+    .media-handle,.media-wrapper{
+        display: block;
+        width: auto;
+    }
+    /* .contact-heading{
+        width: 85%;
+    } */
+    .footer-wrapper aside{
+        display: inline-grid;
+    } 
+    .showcase-content i{
+        top:223px;
+        right: 41px;
+    } 
+   
+ 
+}
+
+
 
 @media (max-width:538px){
     .showcase{
@@ -582,6 +608,10 @@ footer a{
     .showcase-container{
         font-size: 1rem;
     }
+    .showcase-content i {
+        top: 186px;
+        right: 44px;
+    }
 
 }
 
@@ -592,6 +622,10 @@ footer a{
     } */
     .footer-wrapper aside{
         display: block;
+    }
+    .showcase-content i {
+        top: 233px;
+        right: 37px;
     }
    
 }
