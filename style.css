@@ -300,6 +300,7 @@ li{
     border: none;
     margin-right: -11px;
     border-bottom: 2px solid #fff;
+    text-align: center;
 }
 .subs-content label{
     padding: 14px 29px;
@@ -359,8 +360,11 @@ li{
    background-color: rgba(43, 98, 61, 0.2);
 
 }
+#first-name{
+    margin-right: 15px;
+}
 #first-name , #last-name{
-    width: 43%;
+    width: 41%;
     padding: 12px 30px;
     border-radius: 0.51rem; 
 }
